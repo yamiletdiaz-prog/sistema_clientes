@@ -114,7 +114,7 @@ La información se almacena en archivos locales (sin base de datos):
 
 ## Pruebas Unitarias
 
-El archivo `test_gic.py` contiene 14 pruebas que verifican:
+El archivo `test_sistemas.py` contiene 14 pruebas que verifican:
 
 - Agregar clientes y detección de duplicados
 - Buscar clientes existentes e inexistentes
