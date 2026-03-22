@@ -37,7 +37,7 @@ Esto ejecuta las pruebas unitarias y luego abre la interfaz gráfica.
 Para ejecutar solo las pruebas:
 
 ```bash
-python -m unittest test_gic -v
+python -m unittest test_sistema -v
 ```
 
 ---
