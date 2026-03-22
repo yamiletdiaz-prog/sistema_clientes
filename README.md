@@ -13,7 +13,7 @@ sistema_control_clientes/
 ├── gestor_clientes.py   # Lógica CRUD, excepciones personalizadas, persistencia JSON/CSV
 ├── interfaz.py          # Interfaz gráfica con tkinter
 ├── main.py              # Punto de entrada (ejecuta tests + abre la GUI)
-├── test_gic.py          # 14 pruebas unitarias (unittest)
+├── test_sistemas.py          # 14 pruebas unitarias (unittest)
 └── README.md
 ```
 
