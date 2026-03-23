@@ -13,11 +13,8 @@ sistema_control_clientes/
 ├── gestor_clientes.py   # Lógica CRUD, excepciones personalizadas, persistencia JSON/CSV
 ├── interfaz.py          # Interfaz gráfica con tkinter
 ├── main.py              # Punto de entrada (ejecuta tests + abre la GUI)
-├── test_sistemas.py          # 14 pruebas unitarias (unittest)
 └── README.md
 ```
-
----
 
 ## Requisitos
 
@@ -33,12 +30,6 @@ python main.py
 ```
 
 Esto ejecuta las pruebas unitarias y luego abre la interfaz gráfica.
-
-Para ejecutar solo las pruebas:
-
-```bash
-python -m unittest test_sistema -v
-```
 
 ---
 
@@ -111,10 +102,6 @@ La información se almacena en archivos locales (sin base de datos):
 - **Exportar CSV**: genera un archivo CSV con los datos de todos los clientes.
 
 ---
-
-## Pruebas Unitarias
-
-El archivo `test_sistemas.py` contiene 14 pruebas que verifican:
 
 - Agregar clientes y detección de duplicados
 - Buscar clientes existentes e inexistentes
