@@ -12,7 +12,7 @@ sistema_control_clientes/
 ├── tipos_clientes.py    # Subclases: ClienteRegular, ClientePremium, ClienteCorporativo
 ├── gestor_clientes.py   # Lógica CRUD, excepciones personalizadas, persistencia JSON/CSV
 ├── interfaz.py          # Interfaz gráfica con tkinter
-├── main.py              # Punto de entrada (ejecuta tests + abre la GUI)
+├── main.py              # Punto de entrada
 └── README.md
 ```
 
